@@ -1,0 +1,114 @@
+h1 {
+  color: black;
+}
+
+*{
+   font-family: 'Roboto';
+}
+
+#navbar img{
+   width: 50px;
+}
+
+#event-create-container{
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: inherit;
+  background-color: whitesmoke;
+  color:black;
+}
+
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+ font-size: 12px;
+}
+
+.msg {
+  background-color: #D4EDDA;
+  color: forestgreen;
+  border: 1px solid #C3E6CB;
+  width:100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+body {
+  overflow-x: hidden;
+  color:rgb(119, 28, 245);
+  text-decoration: white;
+}
+
+ #sidebar-wrapper {
+ min-height: 110vh;
+ margin-left: -15rem;
+ -webkit-transition: margin .25s ease-out;
+ -moz-transition: margin .25s ease-out;
+ -o-transition: margin .25s ease-out;
+ transition: margin .25s ease-out;
+ position: absolute;
+ margin-top: 60px;
+ color:rgb(119, 28, 245);
+ background-color: black; 
+ 
+ }
+
+ #sidebar-wrapper .sidebar-heading {
+ padding: 0.875rem 1.25rem;
+ font-size: 1.2rem;
+ color:rgb(119, 28, 245);
+
+ }
+ #sidebar-wrapper .list-group {
+ width: 15rem;
+ color:rgb(119, 28, 245);
+
+ 
+ }
+ #page-content-wrapper {
+ min-width: 100vw;
+ color:rgb(119, 28, 245);
+
+ 
+ }
+ #wrapper.toggled #sidebar-wrapper {
+ margin-left: 0;
+ color:rgb(119, 28, 245);
+ background: rgb(255, 255, 255);
+ background-color: black; 
+ }
+ @media (min-width: 768px) {
+ #sidebar-wrapper {
+     margin-left: 0;
+     color:rgb(119, 28, 245); 
+     background-color: black;      
+ }
+ #page-content-wrapper {
+     min-width: 0;
+     width: 100%;
+     color:rgb(119, 28, 245);
+     background: rgb(255, 255, 255);
+     
+ }
+ #wrapper.toggled #sidebar-wrapper {
+     margin-left: -15rem;
+     color:rgb(119, 28, 245);
+   
+ }
+ }
+
+ 
+ #registro{
+  position:fixed;
+
+}
+
+.nav-tabs>li.active>a{
+  background-color: darkgreen;
+}
